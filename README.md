@@ -1,2 +1,0 @@
-# avala-challenge
-Avala Challenge
