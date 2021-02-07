@@ -17,12 +17,12 @@ In order to run this project you should checkout the code and execute `flutter r
 
 1. I tried to interact with an external API, handle its response and render each element using a ListView. Everything was good!
 2. I started interacting with the different widgets and types that Flutter provides trying to understand the best way of solving the exchange issue.
-2.a. My first approach was making use of an Stateful widget and a FutureBuilder, but… I've no reactivity, that pushed me to implement an ObserverPattern [kind of] and I faced another problem… if I use a SetState() the whole view would have rendered again on each "notification" and that is not reactivity.
-2.b. I solved the exchange problem, but I kept facing with the reactivity problem so I started working State Management patterns.
-3. I found the previously mentioned tutorial and played a bit with it until I felt confident with the concepts.
-3.a First at all, I didn't understand how the Cubit works and its own event emit behavior.
-3.b Finally, I understood how to deal with the state and I procedeed to implement the pattern properly.
-3.c I made it work! So I procedeed to refactor the whole solution.
+3. My first approach was making use of an Stateful widget and a FutureBuilder, but… I've no reactivity, that pushed me to implement an ObserverPattern [kind of] and I faced another problem… if I use a SetState() the whole view would have rendered again on each "notification" and that is not reactivity.
+4. I solved the exchange problem, but I kept facing with the reactivity problem so I started working State Management patterns.
+5. I found the previously mentioned tutorial and played a bit with it until I felt confident with the concepts.
+6. First at all, I didn't understand how the Cubit works and its own event emit behavior.
+7. Finally, I understood how to deal with the state and I procedeed to implement the pattern properly.
+8. I made it work! So I procedeed to refactor the whole solution.
 
 #### Things that I would have liked to do
 
