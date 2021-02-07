@@ -1,15 +1,14 @@
-import 'package:currency_exchange/model/exchange_data.dart';
+import 'package:currency_exchange/exchange/model/exchange_data.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
 class ExchangeWidget extends StatelessWidget {
-  ExchangeData exchangeData;
-
-  Function changeUpperSelection;
-  Function changeUpperAmount;
-  Function changeLowerSelection;
-  Function swapCurrencies;
+  final ExchangeData exchangeData;
+  final Function changeUpperSelection;
+  final Function changeUpperAmount;
+  final Function changeLowerSelection;
+  final Function swapCurrencies;
 
   ExchangeWidget(
     this.exchangeData,

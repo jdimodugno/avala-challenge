@@ -5,14 +5,6 @@ class ExchangeData {
   String sourceCurrency;
   String targetCurrency;
 
-  // ExchangeData() {
-  //   this.currencies = ["ARS", "USD"];
-  //   this.convertedAmount = 3;
-  //   this.amount = 2;
-  //   this.sourceCurrency = "ARS";
-  //   this.targetCurrency = "USD";
-  // }
-
   ExchangeData(List<String> currencies, double amount, double convertedAmount,
       String sourceCurrency, String targetCurrency) {
     this.convertedAmount = convertedAmount;

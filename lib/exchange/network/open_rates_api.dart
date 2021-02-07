@@ -7,7 +7,7 @@ class OpenRatesAPI {
   final String baseUrl = "https://api.exchangeratesapi.io";
 
   Future<List<String>> getCurrencies() async {
-    final response = await http.get("$baseUrl/latest");
+    final response = await http.get("$baseUrl/latest?base=USD");
 
     if (response.statusCode == 200) {
       Map data = (convert.jsonDecode(response.body)['rates']) as Map;
