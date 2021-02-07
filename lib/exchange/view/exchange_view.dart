@@ -1,6 +1,7 @@
 import 'package:currency_exchange/exchange/cubit/exchange_cubit.dart';
 import 'package:currency_exchange/exchange/exchange_app.dart';
 import 'package:currency_exchange/exchange/model/exchange_data.dart';
+import 'package:currency_exchange/exchange/widgets/exchange_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
